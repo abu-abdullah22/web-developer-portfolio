@@ -1,0 +1,41 @@
+/* common shared styles */
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+.btn-primary{
+        background-color: #FD6E0A;
+        border-radius: 5px;
+        color: White;
+        border: 0;
+        font-size: 20px;
+        font-weight:700;
+        padding: 15px 35px;
+
+}
+
+
+/* nav related styles */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Mary{
+    font-size: 45px; 
+    font-weight: 800;
+}
+
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+
+nav li{
+    list-style: none;
+    margin-right: 51px;
+}
+nav a{
+    text-decoration: none;
+    color: color:#474747;
+}
