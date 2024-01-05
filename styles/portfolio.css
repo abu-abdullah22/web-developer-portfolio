@@ -44,14 +44,60 @@ nav a{
 /* header related styles */
 .header{
     background-color: #FFF8F3;
-    height: 837px;
+    /* height: 837px; */
+    background-image:url('../images/header_bg.png'); background-repeat: no-repeat; background-position:bottom right;
 }
 .banner{
-    padding: 50px 150px;
+    padding: 30px 30px 0 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .pfp{
     width: 500px;
+}
+
+.banner-greeting{
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0;
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: 600px;
+    margin-top:5px;
+    margin-bottom: 20px;
+}
+
+.banner-descript{
+    margin-bottom: 30px;
+}
+
+.banner-text{
+    max-width: 500px;
+
+}
+
+/* main sections styles */
+
+/* about section  */
+
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background-color: #FFF8F3;
+    margin:130px;
+}
+.section-title{
+    font-size: 35px;
+    font-weight: 700;
+    color: #1818181;
+    text-align:center;
+}
+
+.section-descript{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
 }
