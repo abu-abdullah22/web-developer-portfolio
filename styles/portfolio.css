@@ -247,3 +247,78 @@ textarea {
 footer .section-title {
     text-align: center;
 }
+
+.hide {
+    display: none;
+}
+
+/* responsive styles */
+
+/* small devices */
+
+@media screen and (max-width:576px) {
+    .skills-container {
+        flex-direction: column;
+    }
+
+    #do-descript {
+        padding: 30px;
+    }
+
+    .resume-container {
+        flex-wrap: wrap;
+    }
+
+    footer {
+        flex-wrap: wrap;
+        gap: 50px;
+        padding: 30px;
+        justify-content: center;
+    }
+
+    .social-links a {
+        margin-left: 25px;
+    }
+
+    .footer-column {
+        width: 80%;
+    }
+
+    .contact input[type="text"],
+    .contact input[type="email"],
+    textarea {
+        width: 90%;
+    }
+}
+
+@media screen and (min-width:577px) and (max-width:992px) {
+    .skills-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #do-descript {
+        padding: 30px;
+    }
+
+    footer {
+        flex-wrap: wrap;
+        gap: 50px;
+        padding: 30px;
+        justify-content: center;
+    }
+
+    .social-links a {
+        margin-left: 15px;
+    }
+
+    .footer-column {
+        width: 80%;
+    }
+
+    .contact input[type="text"],
+    .contact input[type="email"],
+    textarea {
+        width: 90%;
+    }
+}
